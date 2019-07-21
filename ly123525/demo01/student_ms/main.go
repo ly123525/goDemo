@@ -16,7 +16,8 @@ func showMenu() {
 	fmt.Println("1. 添加学生")
 	fmt.Println("2. 修改学生")
 	fmt.Println("3. 展示学生")
-	fmt.Println("4. 退出")
+	fmt.Println("4. 删除学生")
+	fmt.Println("5. 退出")
 }
 
 func userInput() *Student {
