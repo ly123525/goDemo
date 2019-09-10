@@ -14,7 +14,7 @@ func process(conn net.Conn) {
 		// conn.Read(buf)
 		//1. 等待客户端通过conn发送信息
 		// 2.如果客户端没有write[发送]， 那么协程就堵塞在这里
-		fmt.Println("服务器在等待客户端发送信息")
+		//fmt.Println("服务器在等待客户端发送信息")
 		n, err := conn.Read(buf) // 从 conn读取
 		if err != nil {
 			fmt.Println("服务器的Read err=", err)
